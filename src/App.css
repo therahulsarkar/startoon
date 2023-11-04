@@ -16,7 +16,7 @@
 
 .section-1  h1{
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .section-2{
@@ -144,7 +144,7 @@
   justify-content: center;
 }
 
-.section_4{
+.section_4, .section_0{
   padding: 0 5rem;
   margin-top: 2rem;
 }
@@ -173,4 +173,58 @@
 .section_4_text span {
   margin-top: 5px;
   font-size: 1.2rem;
+}
+
+.section_4_text{
+  border-top: 2px solid #AEACAC;
+  border-bottom: 2px solid #AEACAC;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.section_3{
+  padding: 1rem;
+}
+.section-2{
+  padding: 1rem;
+}
+
+.section_4{
+  padding: 1rem;
+}
+
+.section_0{
+  padding: 1rem;
+}
+.section-2{
+  height: 25rem;
+  background-color: #002647;
+  margin: 0 0.2rem;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_3_text{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.section_3_text span{
+  margin-left: 0;
+  color: #2C2B2B;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  justify-content: center;
+}
 }
